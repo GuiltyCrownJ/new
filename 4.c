@@ -90,7 +90,32 @@ int main()
 	printf("%d\n", e);//3
 	printf("%d\n", f);//33
 
+    #define _CRT_SECURE_NO_WARNINGS // preprocessor directives
+#include<stdio.h> // preprocessor directives
+#include<string.h>
+int Add(int x, int y)
+{
+	int z = x + y;
+	return z;
+}
+	
+	
+	
+   auto int a = 10;
+	int b = 10;
+	printf("%d,%d\n\n\n", a, b);
+
+	printf("%d,%d\n", a, b);
+	/*the satistics for using frequently please put in register*/register int num = 100;//suggesting for exist register
+	printf("%d\n",num);
+	unsigned int ad=-10;
+
+	
     
+	printf("%d",ad);
+
+	
+   
 	return 0;
 
 	
